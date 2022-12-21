@@ -1,0 +1,1 @@
+let n=0,t=new Date().toISOString().replace(/T.*$/,"");const r=[{id:e(),title:"All-day event",start:t},{id:e(),title:"Timed event",start:t+"T12:00:00"}];function e(){return String(n++)}export{r as INITIAL_EVENTS,e as createEventId};
